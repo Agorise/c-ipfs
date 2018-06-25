@@ -1,8 +1,6 @@
 #! /bin/bash
 	
-git clone https://www.github.com/chronaeon/c-ipfs.git
-cd c-ipfs
-		
+	git clone https://www.github.com/chronaeon/c-ipfs.git
 	git clone https://github.com/jmjatlanta/lmdb.git
 	git clone https://github.com/Agorise/c-protobuf.git
 	git clone https://github.com/Agorise/c-multihash.git
