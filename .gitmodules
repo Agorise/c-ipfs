@@ -1,3 +1,21 @@
 [submodule "--force"]
 	path = --force
 	url = https://github.com/chronaeon/ipfs.git
+[submodule "ipfs"]
+	path = ipfs
+	url = https://www.github.com/chronaeon/ipfs.git
+[submodule "c-libp2p"]
+	path = c-libp2p
+	url = https://www.github.com/chronaeon/c-libp2p.git
+[submodule "c-protobuf"]
+	path = c-protobuf
+	url = https://www.github.com/chronaeon/c-protobuf.git
+[submodule "c-multihash"]
+	path = c-multihash
+	url = https://www.github.com/chronaeon/c-multihash.git
+[submodule "c-multiaddr"]
+	path = c-multiaddr
+	url = https://www.github.com/chronaeon/c-multiaddr.git
+[submodule "lmdb"]
+	path = lmdb
+	url = https://www.github.com/chronaeon/lmdb.git
