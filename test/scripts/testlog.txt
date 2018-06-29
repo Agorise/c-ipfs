@@ -1,0 +1,81 @@
+*Running test number 1
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmU7pYMqzcTTs8Ejgi1ha9pjj72XPz8fUcga7ERd8NMyqh
+rm: cannot remove 'hello.bin': No such file or directory
+*Test number 1 passed
+*Running test number 2
+rm: cannot remove 'hello.txt': No such file or directory
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmVJZ9FzSBktB1uoJnHM3ZemchL1NzQMLcTU9x4fNBUL4T
+added QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH hello.txt
+Hello, World!
+*Test number 2 passed
+*Running test number 3
+rm: cannot remove 'hello.txt': No such file or directory
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmRKbqZvSBJj6ZCAeJ2XDphAwW3eU3ZXaGcqspnUXTHJHj
+added QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH hello.txt
+[Error][null] Ipfs listening on 4001
+Hello, World!
+./test_3.sh: line 18: 15683 Killed                  ../../main/ipfs --config /tmp/ipfs_1 daemon
+*Test number 3 passed
+*Running test number 4
+rm: cannot remove 'hello.txt': No such file or directory
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmYDriyZkvwaGQYHfvv1gYokBUcriz5qhy369X7in7r5N1
+added QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH hello.txt
+[Error][null] Ipfs listening on 4001
+{ "Name": "QmZVoAZGFfinB7MQQiDzB84kWaDPQ95GLuXdemJFM2r9b4"
+ "Value": "QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH" }{ "Path": "QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH" }./test_4.sh: line 19: 15780 Killed                  ../../main/ipfs --config /tmp/ipfs_1 daemon
+*Test number 4 passed
+*Running test number 5
+rm: cannot remove 'hello.txt': No such file or directory
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmbzsXbdBWqrcmpsQKP7R3LD7arQkM1Q6cgov36iUCVThu
+initializing ipfs node at /tmp/ipfs_2
+generating 2048-bit RSA keypair...done
+peer identity: QmUSDNuietV2ur43HUrNbCK8UbT7EmpMpwn5Qv11KaGHTn
+added QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH hello.txt
+[Error][null] Ipfs listening on 4001
+[Error][null] Ipfs listening on 4002
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][swarm] Unable to read from network (could just be a timeout). Exiting the read.
+[Error][api] ipfs_core_http_request_process returned false.
+***Failure*** in cat. The return value was 1
+*Test number 5 failed
+*Running test number 6
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmWhGqYW3puKSjoHyB4jGXj4zQXvBUXjd2JUfc5GPJQb2Z
+added QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH hello.txt
+[Error][null] Ipfs listening on 4001
+{ "Name": "QmZVoAZGFfinB7MQQiDzB84kWaDPQ95GLuXdemJFM2r9b4"
+ "Value": "QmYAXgX8ARiriupMQsbGXtKdDyGzWry1YV3sycKw1qqmgH" }./test_6.sh: line 19: 16033 Killed                  ../../main/ipfs --config /tmp/ipfs_1 daemon
+*Test number 6 passed
+*Running test number 7
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmeE4kALJGERVhXa1TFonUvscDizuhiDQhdUzN5Ct4gBJz
+*Test number 7 passed
+*Running test number 8
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmUyy66ptyQTqSXBwzwytf1b66k7heW7gvjrWG17wFCwzU
+*Test number 8 passed
+*Running test number 9
+initializing ipfs node at /tmp/ipfs_1
+generating 2048-bit RSA keypair...done
+peer identity: QmVpNp9E4Uyn1xbrPSRH9MoznVLsDFwS7TJeJXnGZKjUuz
+*Test number 9 passed
+Of 9 tests, 8 passed and 1 failed.
