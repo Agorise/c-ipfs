@@ -1,5 +1,5 @@
 # C-IPFS
-IPFS implementation in C, (not just an API client library).
+IPFS implementation in C.
 
 ## Quick start for users:
 * **ipfs init** to create an ipfs repository on your machine
