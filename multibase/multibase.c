@@ -26,7 +26,7 @@ int multibase_encode(const char base, const unsigned char* incoming, size_t inco
 		case(MULTIBASE_BASE16):
 			retVal = libp2p_crypto_encoding_base16_encode(incoming, incoming_length, results, results_length);
 			break;
-		default: // unsupported format
+		defalt: // unsupported format
 			return 0;
 	}
 	// check to see if there was a problem
