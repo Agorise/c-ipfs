@@ -1,5 +1,4 @@
 #! /bin/bash
-	git submodule init --recursive --remote
 	git submodule update --recursive --remote	
 		mv lmdb ../
 		mv c-protobuf ../
