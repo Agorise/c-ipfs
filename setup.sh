@@ -22,6 +22,7 @@
 		cd ..
 	cd c-libp2p
 		make all
-		cd ../c-ipfs/
+		cd ..
+	cd c-ipfs
 	make all
 
