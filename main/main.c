@@ -118,7 +118,7 @@ int get_cli_verb(int argc, char** argv) {
 int parse_arguments(int argc, char** argv) {
 	int index = get_cli_verb(argc, argv);
 	if (argc == 1 || index == 0) {
-		libp2p_logger_error("main", "Usage:\n./ipfs [command]\n--init Creates a new IPFS repository\n--add  Adds a new file to the IPFS repository.\n--object\n--cat\n--dns\n--daemon\n--ping\n--get\n--name\n--swarm\n");
+		libp2p_logger_error("main", "Usage:\n./ipfs [command]\ninit Creates a new IPFS repository\nadd  Adds a new file to the IPFS repository.\nobject\ncat\ndns\ndaemon\nping\nget\nname\nswarm\n");
 		return 0;
 	}
 	if (strcmp("init", argv[index]) == 0) {
